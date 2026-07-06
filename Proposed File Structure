@@ -1,0 +1,41 @@
+Service-Coordinator-Knowledge/
+
+├── 00_Master_Index.md
+
+├── Procedures/
+│   ├── Taking_Calls.md
+│   ├── Creating_Work_Orders.md
+│   ├── Scheduling.md
+│   ├── Dispatching.md
+│   ├── Invoicing.md
+│   └── Quoting.md
+
+├── Technicians/
+│   ├── Technician_Capability_Matrix.md
+│   ├── Technician_Profiles.md
+│   └── On_Call_Rotation.md
+
+├── Policies/
+│   ├── Working_Hours.md
+│   ├── Overtime_Rules.md
+│   ├── Travel_Policy.md
+│   └── Priority_Definitions.md
+
+├── Customers/
+│   ├── Customer_Specific_Rules.md
+│   └── Key_Accounts.md
+
+├── Systems/
+│   ├── BMS.md
+│   ├── PowerBI.md
+│   └── FieldAware.md
+
+├── Tribal_Knowledge/
+│   ├── Scheduling_Tips.md
+│   ├── Customer_Insights.md
+│   └── Internal_Best_Practices.md
+
+└── FAQ/
+    └── Service_Coordinator_FAQ.md
+
+Master file should be used as a reference/navigation tool, while the individual Markdown files are the ones to be fed into the AI agent
