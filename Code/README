@@ -1,1 +1,44 @@
-Main code and testing code
+# Service Coordinator Assistant
+
+Current version: 0.1.0
+
+AI-powered Service Coordinator assistant designed to support:
+
+- Technician selection
+- Dispatch planning
+- Missing information verification
+- Invoicing guidance
+- Customer policy validation
+- Tribal knowledge retention
+
+## Knowledge Source
+
+The assistant uses a markdown-based Service Department Knowledge Base.
+
+## Requirements
+
+- Python 3.11+
+- OpenAI Agents SDK
+- OpenAI API Key
+- Virtual environment
+
+## Run
+
+python test_interactive.py
+
+## Roadmap
+
+### v0.2.0
+- Multi-file knowledge base
+
+### v0.3.0
+- Retrieval Search
+
+### v0.4.0
+- Session Memory
+
+### v0.5.0
+- FieldAware Integration
+
+### v1.0.0
+- Production Service Coordinator Assistant
