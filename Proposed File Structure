@@ -1,41 +1,48 @@
-Service-Coordinator-Knowledge/
-
-├── 00_Master_Index.md
-
-├── Procedures/
-│   ├── Taking_Calls.md
-│   ├── Creating_Work_Orders.md
-│   ├── Scheduling.md
-│   ├── Dispatching.md
-│   ├── Invoicing.md
-│   └── Quoting.md
-
-├── Technicians/
-│   ├── Technician_Capability_Matrix.md
-│   ├── Technician_Profiles.md
-│   └── On_Call_Rotation.md
-
-├── Policies/
-│   ├── Working_Hours.md
-│   ├── Overtime_Rules.md
-│   ├── Travel_Policy.md
-│   └── Priority_Definitions.md
-
-├── Customers/
-│   ├── Customer_Specific_Rules.md
-│   └── Key_Accounts.md
-
-├── Systems/
-│   ├── BMS.md
-│   ├── PowerBI.md
-│   └── FieldAware.md
-
-├── Tribal_Knowledge/
-│   ├── Scheduling_Tips.md
-│   ├── Customer_Insights.md
-│   └── Internal_Best_Practices.md
-
-└── FAQ/
-    └── Service_Coordinator_FAQ.md
-
-Master file should be used as a reference/navigation tool, while the individual Markdown files are the ones to be fed into the AI agent
+knowledge_base/
+│
+├── acronyms/
+│
+├── procedures/
+│   ├── service_call_management.md
+│   ├── quote_management.md
+│   ├── invoicing.md
+│   ├── cash_customers_overview.md
+│   ├── cash_customers_service_call.md
+│   ├── customer_invoice_credit.md
+│   ├── dispatch_priorities.md
+│
+├── software/
+│   ├── bms/
+│   │   ├── work_order_creation.md
+│   │   └── overtime_entry.md
+│   │
+│   ├── clover/
+│   │   └── training.md
+│   │
+│   ├── fieldaware/
+│   │   └── (future)
+│   │
+│   └── teams/
+│
+├── customers/
+│   ├── hydro_quebec/
+│   │   └── invoicing.md
+│   ├── priority_accounts.md
+│   └── ...
+│
+├── technicians/
+│   ├── profiles.md
+│   └── selection_rules.md
+│
+├── policies/
+│   ├── general_technician_working_hours.md
+│   ├── night_work_compensation.md
+│   ├── standby_on_call.md
+│   └── stop_work_authority.md
+│
+├── technical/
+│   └── (future CSSNA topics)
+│
+└── general/
+    ├── faq.md
+    └── tribal_knowledge.md
